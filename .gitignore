@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+Data/
+research/
+Generative_AI_Project.egg-info/
+node_modules/
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.h5
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.tfl
+*.lite
+*.mlmodel
+*.mlpackage 
