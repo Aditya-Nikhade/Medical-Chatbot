@@ -71,13 +71,3 @@ Medical-Chatbot/
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-Aditya Nikhade - [GitHub Profile](https://github.com/Aditya-Nikhade)
-
-Project Link: [https://github.com/Aditya-Nikhade/Medical-Chatbot](https://github.com/Aditya-Nikhade/Medical-Chatbot) 
