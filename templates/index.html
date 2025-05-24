@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Assistant - Your AI Health Companion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <i class="fas fa-robot"></i>
+                <h1>Medical Assistant</h1>
+            </div>
+            <p class="subtitle">Your AI-powered health information companion</p>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot">
+                <div class="message-content">
+                    <i class="fas fa-robot"></i>
+                    <div class="text">
+                        Hello! I'm your medical assistant. I can help answer questions based on medical documentation. 
+                        Please note that I'm not a replacement for professional medical advice.
+                    </div>
+                </div>
+                <div class="timestamp">Just now</div>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <form id="chat-form">
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" placeholder="Type your medical question here..." required>
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="disclaimer">
+                    <i class="fas fa-info-circle"></i>
+                    This is an AI assistant. Always consult healthcare professionals for medical advice.
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
